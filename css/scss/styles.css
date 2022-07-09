@@ -1,0 +1,173 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 725px;
+
+}
+
+.faq{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+   
+    position: absolute;
+    z-index: 1;
+    width: 160px;
+    height: 160px;
+    margin-left: -82px;
+}
+
+.card{
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 150px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.online-woman{
+    width: 350px;
+    height: 300px;
+    margin-bottom: -150px;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+
+.online-woman{
+    margin-bottom: -150px;
+    margin-top: 50px;
+}
+
+.pattern{
+    margin-top: -300px;
+    width: 500px;
+    height: 575px;
+    margin-left: -185px;
+}
+
+.illu-img{
+    display: flex;
+    flex-direction: column;
+}
+
+ h4{
+    font-size: small;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.questions p:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+.questions p{
+    font-size: xx-small;
+    opacity: 0.7;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    transition: all 0.5s ease;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.break{
+    border-bottom: 1px solid #7a7e85;
+    transition: all 0.5s ease;
+}
+
+.q{
+    position: relative;
+    display: inline-block;
+}
+
+.quest{
+    transition: all 0.2s ease;
+}
+
+.quest:hover{
+    color:hsl(14, 88%, 65%) ;
+}
+
+.answer{
+    display: none;
+    transition: all 0.2s ease;
+    overflow: hidden;
+
+}
+
+.down{
+    cursor: pointer;
+    margin-left: 50px;
+    width: 12px;
+    height: 10px;
+}
+
+.down:focus{
+    transform: rotate(180deg);
+}
+
+.show{
+    transition: all 0.2s ease;
+    display:block;
+}
+
+@media only screen and (max-width:600px){
+
+    body{
+        height: 1025px;
+    }
+
+    .faq{
+        flex-direction: column;
+    }
+
+    .box{
+        margin-left: -155px;
+        margin-top: 120px;
+        width: 105px;
+        height: 90px;
+    }
+
+    .card{
+        flex-direction: column;
+        overflow: visible;
+        height: 650px;
+        width: 400px;
+        
+    }
+
+    .online-woman{
+        width: 300px;
+        height: 280px;
+        margin-top: -165px;
+        margin-left: 0;
+    }
+
+    .pattern{
+        width: 270px;
+        height: 320px;
+        margin-top: -120px;
+        margin-left: 0;
+    }
+
+    .questions{
+        text-align: center;
+    }
+}
